@@ -1,4 +1,4 @@
-module https: //github.com/midnightrun/iothub
+module github.com/midnightrun/iothub
 
 require (
 	github.com/Azure/azure-sdk-for-go v30.0.0+incompatible // indirect

@@ -16,9 +16,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/amenzhinsky/iothub/common"
-	"github.com/amenzhinsky/iothub/eventhub"
-	"github.com/amenzhinsky/iothub/logger"
+	"github.com/midnightrun/iothub/common"
+	"github.com/midnightrun/iothub/eventhub"
+	"github.com/midnightrun/iothub/logger"
 	"pack.ag/amqp"
 )
 

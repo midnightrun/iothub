@@ -3,10 +3,11 @@ package transport
 import (
 	"context"
 	"crypto/tls"
-	"github.com/amenzhinsky/iothub/logger"
 	"time"
 
-	"github.com/amenzhinsky/iothub/common"
+	"github.com/midnightrun/iothub/logger"
+
+	"github.com/midnightrun/iothub/common"
 )
 
 // Transport interface.

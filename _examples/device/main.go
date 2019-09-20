@@ -5,12 +5,12 @@ import (
 	"log"
 	"os"
 
-	"github.com/amenzhinsky/iothub/iotdevice"
+	midnightrun "github.com/amenzhinsky/iothub/iotdevice"
 	iotmqtt "github.com/amenzhinsky/iothub/iotdevice/transport/mqtt"
 )
 
 func main() {
-	c, err := iotdevice.NewFromConnectionString(
+	c, err := midnightrun.NewFromConnectionString(
 		iotmqtt.New(), os.Getenv("IOTHUB_DEVICE_CONNECTION_STRING"),
 	)
 	if err != nil {

@@ -1,4 +1,4 @@
-module github.com/amenzhinsky/iothub
+module https: //github.com/midnightrun/iothub
 
 require (
 	github.com/Azure/azure-sdk-for-go v30.0.0+incompatible // indirect
@@ -13,7 +13,7 @@ require (
 	golang.org/x/sync v0.0.0-20190423024810-112230192c58 // indirect
 	golang.org/x/sys v0.0.0-20190606203320-7fc4e5ec1444 // indirect
 	golang.org/x/text v0.3.2 // indirect
-	pack.ag/amqp v0.11.0
+	pack.ag/amqp v0.12.2
 )
 
 go 1.13
